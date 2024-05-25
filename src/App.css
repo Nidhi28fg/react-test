@@ -1,0 +1,213 @@
+.menu {
+  width: 50%;
+  text-align: left;
+  position: fixed;
+  fix-position: column;
+  left: -100%;
+  transition: 1s;
+  list-style: none;
+  height: 100vh;
+  background-color: black;
+  z-index: 1;
+  text-style: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+.activeMenu {
+  left: 0%;
+}
+
+.menu ul li {
+  list-style: none;
+  padding: 10px 0px;
+  border-radius: 5px;
+}
+.micon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+input {
+  width: 275px;
+  padding: 0px;
+  height: 35px;
+  margin-top: 45px;
+  background-color: black;
+  color: white;
+  text-size: 5px;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+button {
+  height: 35px;
+  width: 60px;
+  background-color: blue;
+  color: aliceblue;
+}
+
+p {
+  position: relative;
+  right: 100px;
+  top: 30px;
+  color: white;
+  margin-bottom: 90px;
+}
+
+label {
+  position: relative;
+  left: 70px;
+  margin-top: 80px;
+  color: white;
+  font-size: bold;
+}
+
+.enquirebox {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: fixed;
+  display: none;
+}
+
+.menquire {
+  display: block;
+}
+
+.enquire {
+  padding: 8px;
+  width: 50%;
+  height: 80%;
+  position: fixed;
+  z-index: 3;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: solid;
+  border-radius: 20px;
+}
+
+.qenuire {
+  top: 50%;
+}
+
+.enquire label {
+  color: black;
+  left: auto;
+}
+.enquire input {
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.enquirebutton {
+  position: fixed;
+  right: -20px;
+  top: 50%;
+  width: 100px;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+.x {
+  display: flex;
+  flex-position: left;
+  justify-content: space-around;
+}
+
+.faq {
+  color: white;
+  background-color: black;
+  padding: 1px;
+  width: 100%;
+  display: fixed;
+  margin: auto;
+  hieght: 3px;
+}
+
+.faqbox {
+  border: 1px solid whitesmoke;
+  margin: auto;
+  padding: 0px;
+  width: 100%;
+}
+
+.faqquestion {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 1px;
+  margin: auto;
+}
+
+.faqanswer {
+  height: 0px;
+  transform: scaleY(0);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden; /* Add overflow: hidden to hide the content when collapsed */
+  transition: height 0.5s ease;
+}
+
+.showfaqanswer {
+  height: auto !important;
+  transform: scaleY(1) !important;
+  padding: 5px !important;
+  background-color: white;
+  color: black;
+}
+
+.notifications {
+  display: block;
+  max-width: 20px;
+  text-decoration: solid;
+  background-color: white;
+  color: blueviolet;
+  border-radius: 0%;
+  margin: 3px;
+  height: auto;
+}
+
+.howtologin li button {
+  width: fit-content;
+  border-radius: 0 0 0 0; !important
+  padding: 10px;
+  margin: 1px;
+  border: 0; !important
+}
+
+.howtologin ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margain-top: 2px;
+  padding: 0px;
+  color: white;
+}
+
+.howtologin li {
+  margain: 2px;
+  padding: 4px;
+  width: fit-content;
+}
+
+.acticetap {
+  background-color: red;
+}
+
+p {
+  position: relative;
+  left: 10px;
+  gap: 20px;
+  width: 95%;
+  list-style: none;
+  padding: 0px;
+  color: white;
+  text-align: left;
+  border: 2px;
+}
